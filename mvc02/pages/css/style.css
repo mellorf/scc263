@@ -1,0 +1,11 @@
+body { text-decoration: none; color: #263a6c; font-family: "verdana,arial"; font-size: 12pt; font-weight: medium; } 
+
+a:link { text-decoration: none; color: #263a6c; font-family: "ms sans serif"; font-size: 12pt; font-weight: heavy; } 
+
+td.menu { text-decoration: none; color: #263a6c; font-family: "verdana, arial"; font-size: 11pt; font-weight: heavy; text-align: center; vertical-align: middle; } 
+
+input.text { text-decoration: none; color: #263a6c; font-family: "verdana, arial"; font-size: 10pt; font-weight: bold; text-align: left; vertical-align: middle; } 
+
+td.text { text-decoration: none; color: #263a6c; font-family: "verdana, arial"; font-size: 10pt; font-weight: bold; text-align: left; vertical-align: middle; } 
+
+td.copyleft { text-decoration: none; color: #263a6c; font-family: "courier"; font-size: 9pt; font-weight: heavy; } 

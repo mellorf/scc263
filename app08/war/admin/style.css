@@ -1,0 +1,10 @@
+body { margin: 0; };
+A:link { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 11px; text-align: justify; color: #4c0a7e; }
+A:visited { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 11px; text-align: justify; color: #4c0a7e; }
+A:active { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 11px; text-align: justify; color: #4c0a7e; }
+A:hover { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 11px; text-align: justify; color: #4c0a7e; }
+
+div.text { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 12px; text-align: center; color: #4c0a7e; }
+input.text { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 12px; text-align: center; color: #4c0a7e; }
+textarea.text { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 12px; text-align: center; color: #4c0a7e; }
+select.text { text-decoration: bold; font-family: Verdana, Arial, Times; font-size: 12px; text-align: center; color: #4c0a7e; }

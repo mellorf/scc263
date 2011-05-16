@@ -1,0 +1,17 @@
+<%@page import="org.usp.app08.core.*" %>
+<%
+
+	String tmsp = request.getParameter("tmsp");
+	String headline = request.getParameter("headline");
+	String body = request.getParameter("body");
+	String email = request.getParameter("email");
+
+	News news = new News();
+	news.setTmsp(tmsp);
+	news.setHeadline(headline);
+	news.setBody(body);
+	news.setEmail(email);
+
+	news.insert();
+
+%>

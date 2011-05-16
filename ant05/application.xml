@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<application>
+	<display-name>Exemplo04</display-name>
+	<module>
+		<web>
+			<web-uri>exemplo04.war</web-uri>
+			<context-root>/exemplo04</context-root>
+		</web>
+	</module>
+</application>
+
+

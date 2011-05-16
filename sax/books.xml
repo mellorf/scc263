@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <Book Subject="Java 1.5">
+        <Author>Kathy Sierra .. etc</Author>
+        <Title>Head First Java</Title>
+    </Book>
+    <Book Subject="Java Architect">
+        <Author>Kathy Sierra .. etc</Author>
+        <Title>Head First Design Patterns</Title>
+    </Book>
+</Books>

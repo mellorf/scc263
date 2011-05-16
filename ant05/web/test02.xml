@@ -1,0 +1,13 @@
+<register>
+	<codigo>1</codigo>
+	<nome>Joao</nome>
+	<endereco>Rua...</endereco>
+</register>
+<register>
+	<codigo>2</codigo>
+	<nome>Jose</nome>
+</register>
+<register>
+	<codigo>3</codigo>
+	<nome>Paulo</nome>
+</register>

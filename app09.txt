@@ -1,0 +1,28 @@
+- Parser XML para RSS
+- Insercao de Notícias
+- Sugestão: tabela/classes/cadastro RSS
+- MD5 para senha
+
+app09
+
+MVC (Model-View-Controller)
+
+View -> JSP
+Controller -> Servlets
+Model -> JavaBeans + BD
+
+- JSP
+- Controllers (Servlets)
+- JavaBeans (sql)
+- BD
+- i18n
+- upload imagem, arquivo, video, audio
+- geracao de graficos, pdf
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<project name="Exemplo WAR" default="all" basedir=".">
+
+	<path id="project.class.path">
+		<pathelement location="lib/"/>
+		<pathelement path="/usr/local/jdk1.6.0_06/sample/jnlp/servlet/jnlp-servlet.jar:/usr/local/jdk1.6.0_06/sample/jnlp/servlet/jnlp.jar:/usr/local/jdk1.6.0_06/sample/jnlp/servlet/jardiff.jar:/usr/local/jdk1.6.0_06/sample/jnlp/webpad/war/app/jlfgr__V1.0.jar:/usr/local/jdk1.6.0_06/sample/jnlp/webpad/war/app/jhcore__V1.0.jar:/usr/local/jdk1.6.0_06/sample/jnlp/webpad/war/app/holidays__V1.0.jar:/usr/local/jdk1.6.0_06/jre/lib/charsets.jar:/usr/local/jdk1.6.0_06/jre/lib/im/thaiim.jar:/usr/local/jdk1.6.0_06/jre/lib/im/indicim.jar:/usr/local/jdk1.6.0_06/jre/lib/ext/dnsns.jar:/usr/local/jdk1.6.0_06/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.6.0_06/jre/lib/ext/sunpkcs11.jar:/usr/local/jdk1.6.0_06/jre/lib/ext/localedata.jar:/usr/local/jdk1.6.0_06/jre/lib/security/local_policy.jar:/usr/local/jdk1.6.0_06/jre/lib/security/US_export_policy.jar:/usr/local/jdk1.6.0_06/jre/lib/jsse.jar:/usr/local/jdk1.6.0_06/jre/lib/management-agent.jar:/usr/local/jdk1.6.0_06/jre/lib/deploy.jar:/usr/local/jdk1.6.0_06/jre/lib/javaws.jar:/usr/local/jdk1.6.0_06/jre/lib/jce.jar:/usr/local/jdk1.6.0_06/jre/lib/rt.jar:/usr/local/jdk1.6.0_06/jre/lib/resources.jar:/usr/local/jdk1.6.0_06/jre/lib/plugin.jar:/usr/local/jdk1.6.0_06/demo/jfc/Notepad/Notepad.jar:/usr/local/jdk1.6.0_06/demo/jfc/CodePointIM/CodePointIM.jar:/usr/local/jdk1.6.0_06/demo/jfc/Java2D/Java2Demo.jar:/usr/local/jdk1.6.0_06/demo/jfc/SwingApplet/SwingApplet.jar:/usr/local/jdk1.6.0_06/demo/jfc/TableExample/TableExample.jar:/usr/local/jdk1.6.0_06/demo/jfc/Metalworks/Metalworks.jar:/usr/local/jdk1.6.0_06/demo/jfc/Stylepad/Stylepad.jar:/usr/local/jdk1.6.0_06/demo/jfc/Font2DTest/Font2DTest.jar:/usr/local/jdk1.6.0_06/demo/jfc/FileChooserDemo/FileChooserDemo.jar:/usr/local/jdk1.6.0_06/demo/jfc/SwingSet2/SwingSet2.jar:/usr/local/jdk1.6.0_06/demo/jfc/SampleTree/SampleTree.jar:/usr/local/jdk1.6.0_06/demo/management/FullThreadDump/FullThreadDump.jar:/usr/local/jdk1.6.0_06/demo/management/JTop/JTop.jar:/usr/local/jdk1.6.0_06/demo/management/VerboseGC/VerboseGC.jar:/usr/local/jdk1.6.0_06/demo/management/MemoryMonitor/MemoryMonitor.jar:/usr/local/jdk1.6.0_06/demo/jvmti/mtrace/mtrace.jar:/usr/local/jdk1.6.0_06/demo/jvmti/heapTracker/heapTracker.jar:/usr/local/jdk1.6.0_06/demo/jvmti/minst/minst.jar:/usr/local/jdk1.6.0_06/demo/jpda/examples.jar:/usr/local/jdk1.6.0_06/demo/scripting/jconsole-plugin/jconsole-plugin.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/Notepad/Notepad.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/CodePointIM/CodePointIM.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/Java2D/Java2Demo.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/SwingApplet/SwingApplet.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/TableExample/TableExample.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/Metalworks/Metalworks.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/Stylepad/Stylepad.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/Font2DTest/Font2DTest.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/FileChooserDemo/FileChooserDemo.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/SwingSet2/SwingSet2.jar:/usr/local/jdk1.6.0_06/demo/plugin/jfc/SampleTree/SampleTree.jar:/usr/local/jdk1.6.0_06/lib/jconsole.jar:/usr/local/jdk1.6.0_06/lib/sa-jdi.jar:/usr/local/jdk1.6.0_06/lib/dt.jar:/usr/local/jdk1.6.0_06/lib/htmlconverter.jar:/usr/local/jdk1.6.0_06/lib/tools.jar:/usr/local/jdk1.6.0_06/db/demo/databases/toursdb.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_pt_BR.jar:/usr/local/jdk1.6.0_06/db/lib/derby.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_ko_KR.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_es.jar:/usr/local/jdk1.6.0_06/db/lib/derbyrun.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_ja_JP.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_fr.jar:/usr/local/jdk1.6.0_06/db/lib/derbyclient.jar:/usr/local/jdk1.6.0_06/db/lib/derbynet.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_zh_TW.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_hu.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_it.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_cs.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_de_DE.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_pl.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_zh_CN.jar:/usr/local/jdk1.6.0_06/db/lib/derbyLocale_ru.jar:/usr/local/jdk1.6.0_06/db/lib/derbytools.jar"/>
+	</path>
+
+	<target name="init">
+		<property name="lib" value="${basedir}/lib"/>
+		<property name="web" value="${basedir}/web"/>
+		<property name="src" value="${basedir}/src"/>
+		<property name="build" value="${basedir}/build"/>
+		<property name="classdir" value="${basedir}/build/classes"/>
+		<property name="warDir" value="${basedir}/build/war"/>
+		<property name="earDir" value="${basedir}/build/ear"/>
+
+		<!-- WAR and EAR FILES -->
+		<property name="warFile" value="exemplo04.war"/>
+		<property name="earFile" value="exemplo04.ear"/>
+
+		<!-- Create Web-inf and classes directories -->
+		<mkdir dir="${build}"/>
+		<mkdir dir="${classdir}"/>
+		<mkdir dir="${warDir}/WEB-INF"/>
+		<mkdir dir="${warDir}/WEB-INF/classes"/>
+		<mkdir dir="${warDir}/WEB-INF/lib"/>
+
+		<!-- Create Meta-inf and classes directories -->
+		<mkdir dir="${earDir}"/>
+		<mkdir dir="${earDir}/META-INF"/>
+	</target>
+
+	<!-- Main target -->
+	<target name="all" depends="clean,init,build,buildWar,buildEar"/>
+
+	<!-- Compile Java Files and store in /build/src directory -->
+	<target name="build" >
+		<javac srcdir="${src}" destdir="${classdir}" debug="true" includes="**/*.java">
+			<classpath refid="project.class.path"/>
+		</javac>
+	</target>
+
+	<!-- Create the War File -->
+	<target name="buildWar" depends="init">
+		<copy todir="${warDir}/WEB-INF/classes">
+			<fileset dir="${classdir}" includes="**/*.class" /> 
+		</copy>
+
+		<copy todir="${warDir}/WEB-INF">
+			<fileset dir="${basedir}" includes="web.xml" /> 
+		</copy>
+
+		<copy todir="${warDir}">
+			<fileset dir="${web}" includes="**/*.*" /> 
+		</copy>
+
+		<copy todir="${warDir}/WEB-INF/lib">
+			<fileset dir="${lib}" includes="**/*.*" /> 
+		</copy>
+
+		<!-- Create war file and place in ear directory -->
+		<jar jarfile="${earDir}/${warFile}" basedir="${warDir}" />
+	</target>
+
+	<!-- Create the Ear File -->
+	<target name="buildEar" depends="init">
+		<copy todir="${earDir}/META-INF">
+			<fileset dir="${basedir}" includes="application.xml" /> 
+		</copy>
+
+		<!-- Create ear file and place in ear directory -->
+		<jar jarfile="${basedir}/${earFile}" basedir="${earDir}" />
+	</target>
+
+	<target name="clean" >
+		<delete dir="build"/>
+		<delete file="exemplo04.ear"/>
+	</target>
+</project>

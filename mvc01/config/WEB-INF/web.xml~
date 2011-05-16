@@ -1,0 +1,34 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
+  <servlet>
+    <servlet-name>fileupload</servlet-name>
+    <servlet-class>org.usp.mvc01.core.FileUploadServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fileupload</servlet-name>
+    <url-pattern>/fileupload</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getfile</servlet-name>
+    <servlet-class>org.usp.mvc01.core.GetFileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getfile</servlet-name>
+    <url-pattern>/getfile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PersonServlet</servlet-name>
+    <servlet-class>org.usp.mvc01.core.PersonServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>PersonServlet</servlet-name>
+    <url-pattern>/PersonServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

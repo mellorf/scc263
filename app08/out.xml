@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="http://slashdot.org/">
+<title>Slashdot</title>
+<link>http://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2010, Geeknet, Inc.  All Rights Reserved.</dc:rights>
+<dc:date>2011-04-08T14:10:18+00:00</dc:date>
+<dc:publisher>Geeknet, Inc.</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://science.slashdot.org/story/11/04/08/1353249/Tennessee-Bill-Helps-Teachers-Challenge-Evolution?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/11/04/08/1245244/Involuntary-Geolocation-To-Within-One-Kilometer?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://mobile.slashdot.org/story/11/04/08/129247/92000-LEGO-Robots-To-Take-Over-Peruvian-Schools-Alongside-OLPC?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://news.slashdot.org/story/11/04/08/0245241/Editing-Wikipedia-Helps-Professor-Attain-Tenure?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://developers.slashdot.org/story/11/04/08/0324236/Judge-In-Oracle-Google-Case-Given-Crash-Course-in-Java?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://news.slashdot.org/story/11/04/08/039216/Google-Ties-Employee-Bonuses-To-1-Success?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/11/04/08/0238240/Better-Open-Source-Communities-Through-Data?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://games.slashdot.org/story/11/04/08/0045254/Minecraft-To-Officially-Launch-111111?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://mobile.slashdot.org/story/11/04/08/010235/Nokia-Confirms-Symbian-Is-No-Longer-Open-Source?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://mobile.slashdot.org/story/11/04/08/008250/FCC-Requires-Data-Roaming-Agreements?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/11/04/07/232224/Obama-Administration-Wants-Your-Old-Email?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/11/04/07/2218220/Which-Comic-Character-Is-the-Greatest-Engineer?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/11/04/07/2125238/Facebook-Opens-Their-Data-Center-Infrastructure?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://developers.slashdot.org/story/11/04/07/2053219/SQL-and-NoSQL-are-Two-Sides-of-the-Same-Coin?utm_source=rss1.0&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/11/04/07/1946244/Columbia-University-Ending-the-Kermit-Project?utm_source=rss1.0&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="http://slashdot.org/search.pl" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://rss.slashdot.org/Slashdot/slashdot" /><feedburner:info uri="slashdot/slashdot" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+
+<image rdf:about="http://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>http://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>http://slashdot.org/</link>
+</image>
+
+<item rdf:about="http://science.slashdot.org/story/11/04/08/1353249/Tennessee-Bill-Helps-Teachers-Challenge-Evolution?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Tennessee Bill Helps Teachers Challenge Evolution</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/rnEUvZbRlZQ/Tennessee-Bill-Helps-Teachers-Challenge-Evolution</link>
+<description>sciencehabit writes "In a 70-28 vote yesterday, the Tennessee House of Representatives passed HB 368 (PDF), a bill that encourages science teachers to explore controversial topics without fear of reprisal. Critics say the measure will enable K-12 teachers to present intelligent design and creationism as acceptable alternatives to evolution in the classroom. If the bill passes, Tennessee would join Louisiana as the second state to have specific 'protection' for the teaching of evolution in the classroom."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F11%2F04%2F08%2F1353249%2FTennessee-Bill-Helps-Teachers-Challenge-Evolution%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Tennessee+Bill+Helps+Teachers+Challenge+Evolution%3A+http%3A%2F%2Fbit.ly%2Fe42GCS" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/11/04/08/1353249/Tennessee-Bill-Helps-Teachers-Challenge-Evolution?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2075266&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/Os06tnVT7cLFN1w2N49O5jSlBaY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Os06tnVT7cLFN1w2N49O5jSlBaY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/Os06tnVT7cLFN1w2N49O5jSlBaY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/Os06tnVT7cLFN1w2N49O5jSlBaY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/rnEUvZbRlZQ" height="1" width="1"/&gt;</description>
+<dc:creator>Soulskill</dc:creator>
+<dc:date>2011-04-08T14:07:00+00:00</dc:date>
+<dc:subject>education</dc:subject>
+<slash:department>dueling-with-zombie-darwin</slash:department>
+<slash:section>science</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/11/04/08/1353249/Tennessee-Bill-Helps-Teachers-Challenge-Evolution?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://yro.slashdot.org/story/11/04/08/1245244/Involuntary-Geolocation-To-Within-One-Kilometer?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Involuntary Geolocation To Within One Kilometer</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/v0Yy5Eq3_kM/Involuntary-Geolocation-To-Within-One-Kilometer</link>
+<description>Schneier's blog tips an article about research into geolocation that can track down a computer's location from its IP address to within 690 meters on average without voluntary disclosure from the target. Quoting:
+"The first stage measures the time it takes to send a data packet to the target and converts it into a distance &amp;ndash; a common geolocation technique that narrows the target's possible location to a radius of around 200 kilometers. Wang and colleagues then send data packets to the known Google Maps landmark servers in this large area to find which routers they pass through. When a landmark machine and the target computer have shared a router, the researchers can compare how long a packet takes to reach each machine from the router; converted into an estimate of distance, this time difference narrows the search down further. 'We shrink the size of the area where the target potentially is,' explains Wang. Finally, they repeat the landmark search at this more fine-grained level: comparing delay times once more, they establish which landmark server is closest to the target."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F11%2F04%2F08%2F1245244%2FInvoluntary-Geolocation-To-Within-One-Kilometer%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Involuntary+Geolocation+To+Within+One+Kilometer%3A+http%3A%2F%2Fbit.ly%2FhC3i9g" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/11/04/08/1245244/Involuntary-Geolocation-To-Within-One-Kilometer?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2075142&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/DkzkPwMKWjaklzfGoGPaTySMS7o/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/DkzkPwMKWjaklzfGoGPaTySMS7o/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/DkzkPwMKWjaklzfGoGPaTySMS7o/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/DkzkPwMKWjaklzfGoGPaTySMS7o/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/v0Yy5Eq3_kM" height="1" width="1"/&gt;</description>
+<dc:creator>Soulskill</dc:creator>
+<dc:date>2011-04-08T13:26:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>proxy-stock-rising</slash:department>
+<slash:section>yro</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/11/04/08/1245244/Involuntary-Geolocation-To-Within-One-Kilometer?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://mobile.slashdot.org/story/11/04/08/129247/92000-LEGO-Robots-To-Take-Over-Peruvian-Schools-Alongside-OLPC?utm_source=rss1.0&amp;utm_medium=feed">
+<title>92,000 LEGO Robots To Take Over Peruvian Schools Alongside OLPC</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/U4DYT8VsHUk/92000-LEGO-Robots-To-Take-Over-Peruvian-Schools-Alongside-OLPC</link>
+<description>An anonymous reader writes "The president of Peru, Alan Garcia, decided to celebrate the 500,000th One Laptop Per Child XO laptop in that country in style, announcing orders for half a million more and 20,000 additional Lego education WeDo robot kits for public schools, bringing the total number of kits for distribution up to 92,000. The latest OLPC laptop, the XO-1.75, has the lowest power draw ever thanks to a Marvell Armada 600 ARM processor and runs Fedora GNU/Linux with dual desktops Sugar (in Spanish, Aymara, and Quechua) and GNOME. For the first time, the XOs will be manufactured locally; the previous 2 million, including the blue high school variant with grownup keyboard, were all made by Quanta Computer. Meanwhile, parallel development continues on the upcoming XO-3 tablet; OLPC's New Technologies director is exploring software paths including GTK3 for Sugar, Android and Chrome. I, for one, salute our new plastic Peruvian overlords."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmobile.slashdot.org%2Fstory%2F11%2F04%2F08%2F129247%2F92000-LEGO-Robots-To-Take-Over-Peruvian-Schools-Alongside-OLPC%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=92%2C000+LEGO+Robots+To+Take+Over+Peruvian+Schools+Alongside+OLPC%3A+http%3A%2F%2Fbit.ly%2FhJAT00" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://mobile.slashdot.org/story/11/04/08/129247/92000-LEGO-Robots-To-Take-Over-Peruvian-Schools-Alongside-OLPC?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2075074&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/11sdeexCG80wYPX4AHLI_f_NHKQ/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/11sdeexCG80wYPX4AHLI_f_NHKQ/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/11sdeexCG80wYPX4AHLI_f_NHKQ/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/11sdeexCG80wYPX4AHLI_f_NHKQ/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/U4DYT8VsHUk" height="1" width="1"/&gt;</description>
+<dc:creator>Soulskill</dc:creator>
+<dc:date>2011-04-08T12:43:00+00:00</dc:date>
+<dc:subject>portables</dc:subject>
+<slash:department>resistance-is-futile</slash:department>
+<slash:section>mobile</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://mobile.slashdot.org/story/11/04/08/129247/92000-LEGO-Robots-To-Take-Over-Peruvian-Schools-Alongside-OLPC?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://news.slashdot.org/story/11/04/08/0245241/Editing-Wikipedia-Helps-Professor-Attain-Tenure?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Editing Wikipedia Helps Professor Attain Tenure</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/tGND40fuzAc/Editing-Wikipedia-Helps-Professor-Attain-Tenure</link>
+<description>Hugh Pickens writes "Lianna Davis writes in Watching the Watchers that Michel Aaij has won tenure in the Department of English and Philosophy at Auburn University Montgomery in Alabama in part because of the more than 60,000 edits ... he's written for Wikipedia. ... Aaij felt that his contributions to Wikipedia merited mention in his tenure portfolio and a few weeks before the portfolio was due two of his colleagues suggested, after they had heard him talk once or twice about the peer-review process for a Good Article, that he should include it under 'research' as well as well as 'service.'"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fnews.slashdot.org%2Fstory%2F11%2F04%2F08%2F0245241%2FEditing-Wikipedia-Helps-Professor-Attain-Tenure%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Editing+Wikipedia+Helps+Professor+Attain+Tenure%3A+http%3A%2F%2Fbit.ly%2FihkWSf" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://news.slashdot.org/story/11/04/08/0245241/Editing-Wikipedia-Helps-Professor-Attain-Tenure?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074342&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/xhPkYLAVc7fsYFIdqY3WljTEXYs/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/xhPkYLAVc7fsYFIdqY3WljTEXYs/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/xhPkYLAVc7fsYFIdqY3WljTEXYs/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/xhPkYLAVc7fsYFIdqY3WljTEXYs/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/tGND40fuzAc" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T12:01:00+00:00</dc:date>
+<dc:subject>wikipedia</dc:subject>
+<slash:department>an-internet-encyclopedia-will-never-work</slash:department>
+<slash:section>news</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://news.slashdot.org/story/11/04/08/0245241/Editing-Wikipedia-Helps-Professor-Attain-Tenure?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://developers.slashdot.org/story/11/04/08/0324236/Judge-In-Oracle-Google-Case-Given-Crash-Course-in-Java?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Judge In Oracle-Google Case Given Crash Course in Java</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/5BXEqtYqg_g/Judge-In-Oracle-Google-Case-Given-Crash-Course-in-Java</link>
+<description>itwbennett writes "Lawyers for Oracle and Google gave Judge William Alsup of the U.S. District Court in San Francisco an overview of Java and why it was invented, and an explanation of terms such as bytecode, compiler, class library and machine-readable code. The tutorial was to prepare him for a claim construction conference in two weeks, where he'll have to sort out disputes between the two sides about how language in Oracle's Java patents should be interpreted. At one point an attorney for Google, Scott Weingaertner, described how a typical computer is made up of applications, an OS and the hardware underneath. 'I understand that much,' Alsup said, asking him to move on. But he had to ask several questions to grasp some aspects of Java, including the concept of Java class libraries. 'Coming into today's hearing, I couldn't understand what was meant by a class,' he admitted."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F11%2F04%2F08%2F0324236%2FJudge-In-Oracle-Google-Case-Given-Crash-Course-in-Java%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Judge+In+Oracle-Google+Case+Given+Crash+Course+in+Java%3A+http%3A%2F%2Fbit.ly%2Fg49Shx" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://developers.slashdot.org/story/11/04/08/0324236/Judge-In-Oracle-Google-Case-Given-Crash-Course-in-Java?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074376&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/fvuzbQdn7du0hIKcUgtqB-IaT7E/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/fvuzbQdn7du0hIKcUgtqB-IaT7E/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/fvuzbQdn7du0hIKcUgtqB-IaT7E/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/fvuzbQdn7du0hIKcUgtqB-IaT7E/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/5BXEqtYqg_g" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T10:09:00+00:00</dc:date>
+<dc:subject>java</dc:subject>
+<slash:department>learn-java-in-one-hour</slash:department>
+<slash:section>developers</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://developers.slashdot.org/story/11/04/08/0324236/Judge-In-Oracle-Google-Case-Given-Crash-Course-in-Java?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://news.slashdot.org/story/11/04/08/039216/Google-Ties-Employee-Bonuses-To-1-Success?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Google Ties Employee Bonuses To +1 Success</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/s9WUf1VwyQ4/Google-Ties-Employee-Bonuses-To-1-Success</link>
+<description>jfruhlinger writes "Last week Google introduced the +1 button, its attempt to tie its search offerings more closely with users' social networks. Now, a leaked memo reveals that every Google employee will have a stake in the outcome, with bonuses tied to the success or failure of the initiative."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fnews.slashdot.org%2Fstory%2F11%2F04%2F08%2F039216%2FGoogle-Ties-Employee-Bonuses-To-1-Success%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Google+Ties+Employee+Bonuses+To+%2B1+Success%3A+http%3A%2F%2Fbit.ly%2FfDY6Ks" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://news.slashdot.org/story/11/04/08/039216/Google-Ties-Employee-Bonuses-To-1-Success?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074358&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/-kBImCtcRdSuiPwsKw3rpiAHIJY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/-kBImCtcRdSuiPwsKw3rpiAHIJY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/-kBImCtcRdSuiPwsKw3rpiAHIJY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/-kBImCtcRdSuiPwsKw3rpiAHIJY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/s9WUf1VwyQ4" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T07:15:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>negativity-is-impolite-mmkay</slash:department>
+<slash:section>news</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://news.slashdot.org/story/11/04/08/039216/Google-Ties-Employee-Bonuses-To-1-Success?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://tech.slashdot.org/story/11/04/08/0238240/Better-Open-Source-Communities-Through-Data?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Better Open Source Communities Through Data</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/csjhzYt53o8/Better-Open-Source-Communities-Through-Data</link>
+<description>An anonymous reader writes "Using exhaust data from Bugzilla, David Eaves describes how the Mozilla Metrics team is creating dashboards to improve the contributor experience and give open source community managers better situational awareness."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F11%2F04%2F08%2F0238240%2FBetter-Open-Source-Communities-Through-Data%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Better+Open+Source+Communities+Through+Data%3A+http%3A%2F%2Fbit.ly%2FfRNZpQ" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/11/04/08/0238240/Better-Open-Source-Communities-Through-Data?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074340&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/gRZJZ7VSKZDxbZI5Xg3VlNk8UzY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/gRZJZ7VSKZDxbZI5Xg3VlNk8UzY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/gRZJZ7VSKZDxbZI5Xg3VlNk8UzY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/gRZJZ7VSKZDxbZI5Xg3VlNk8UzY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/csjhzYt53o8" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T04:30:00+00:00</dc:date>
+<dc:subject>mozilla</dc:subject>
+<slash:department>keeping-dinosaurs-relevant</slash:department>
+<slash:section>technology</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/11/04/08/0238240/Better-Open-Source-Communities-Through-Data?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://games.slashdot.org/story/11/04/08/0045254/Minecraft-To-Officially-Launch-111111?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Minecraft To Officially Launch 11/11/11</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/qlMznD_ikLU/Minecraft-To-Officially-Launch-111111</link>
+<description>tekgoblin writes "Minecraft has currently sold about 2 million copies and it's still only in beta. However, the developers have just announced that the game will officially launch on 11/11/11. The date 11/11/11 was actually chosen because it falls on the same date as other various game releases, the most notable being Skyrim."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgames.slashdot.org%2Fstory%2F11%2F04%2F08%2F0045254%2FMinecraft-To-Officially-Launch-111111%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Minecraft+To+Officially+Launch+11%2F11%2F11%3A+http%3A%2F%2Fbit.ly%2Ffer70f" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://games.slashdot.org/story/11/04/08/0045254/Minecraft-To-Officially-Launch-111111?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074266&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/2ggkXWlwQOF3hXfr71xgUebPGYI/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/2ggkXWlwQOF3hXfr71xgUebPGYI/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/2ggkXWlwQOF3hXfr71xgUebPGYI/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/2ggkXWlwQOF3hXfr71xgUebPGYI/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/qlMznD_ikLU" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T03:11:00+00:00</dc:date>
+<dc:subject>pcgames</dc:subject>
+<slash:department>cia-plot-to-keep-the-nerds-down</slash:department>
+<slash:section>games</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/story/11/04/08/0045254/Minecraft-To-Officially-Launch-111111?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://mobile.slashdot.org/story/11/04/08/010235/Nokia-Confirms-Symbian-Is-No-Longer-Open-Source?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Nokia Confirms Symbian Is No Longer Open Source</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/tVF2RXGSEks/Nokia-Confirms-Symbian-Is-No-Longer-Open-Source</link>
+<description>theweatherelectric noted an article on the H. From the article "Nokia has confirmed that it has closed the source code for the Symbian smartphone operating system. It says that despite it describing its new model for Symbian smartphone operating system development as 'open and direct' the 'open' part did not refer to 'open source' but to being 'open for business'. The 'open and direct' model is designed, according to Nokia, to 'enable us to continue working with the remaining Japanese OEMs and the relatively small community of platform development collaborators we are already working with.''"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmobile.slashdot.org%2Fstory%2F11%2F04%2F08%2F010235%2FNokia-Confirms-Symbian-Is-No-Longer-Open-Source%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Nokia+Confirms+Symbian+Is+No+Longer+Open+Source%3A+http%3A%2F%2Fbit.ly%2FdJhDHT" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://mobile.slashdot.org/story/11/04/08/010235/Nokia-Confirms-Symbian-Is-No-Longer-Open-Source?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074278&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/9rRgcfmz1qS4ruRFMDRG1JnGKnc/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/9rRgcfmz1qS4ruRFMDRG1JnGKnc/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/9rRgcfmz1qS4ruRFMDRG1JnGKnc/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/9rRgcfmz1qS4ruRFMDRG1JnGKnc/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/tVF2RXGSEks" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T02:55:00+00:00</dc:date>
+<dc:subject>opensource</dc:subject>
+<slash:department>two-plus-two-equals-closed</slash:department>
+<slash:section>mobile</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://mobile.slashdot.org/story/11/04/08/010235/Nokia-Confirms-Symbian-Is-No-Longer-Open-Source?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://mobile.slashdot.org/story/11/04/08/008250/FCC-Requires-Data-Roaming-Agreements?utm_source=rss1.0&amp;utm_medium=feed">
+<title>FCC Requires Data-Roaming Agreements</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/g3mfHxy6g3E/FCC-Requires-Data-Roaming-Agreements</link>
+<description>itwbennett writes "The FCC has voted to require data roaming agreements between carriers in a move largely targeting AT&amp;amp;T and Verizon, the two largest mobile carriers in the U.S. 'What good is [a] smartphone if it can't be used when a subscriber is roaming across the country or even across the county?' said Commissioner Michael Copps. 'Our regulations must reflect today's reality and not make artificial distinctions between voice and data telecommunications.'"&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmobile.slashdot.org%2Fstory%2F11%2F04%2F08%2F008250%2FFCC-Requires-Data-Roaming-Agreements%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=FCC+Requires+Data-Roaming+Agreements%3A+http%3A%2F%2Fbit.ly%2FgTjSNs" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://mobile.slashdot.org/story/11/04/08/008250/FCC-Requires-Data-Roaming-Agreements?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074236&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/ezTl8F4h1qI5IC8XNPjrUWAwLis/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/ezTl8F4h1qI5IC8XNPjrUWAwLis/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/ezTl8F4h1qI5IC8XNPjrUWAwLis/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/ezTl8F4h1qI5IC8XNPjrUWAwLis/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/g3mfHxy6g3E" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T01:18:00+00:00</dc:date>
+<dc:subject>cellphones</dc:subject>
+<slash:department>intravenous-data-feed</slash:department>
+<slash:section>mobile</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://mobile.slashdot.org/story/11/04/08/008250/FCC-Requires-Data-Roaming-Agreements?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://yro.slashdot.org/story/11/04/07/232224/Obama-Administration-Wants-Your-Old-Email?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Obama Administration Wants Your Old Email</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/parDc6QiCaw/Obama-Administration-Wants-Your-Old-Email</link>
+<description>Nemesisghost wrote to us with a story about attempts to reform the 1986 Electronic Communications Privacy Act. Under the act, messages left on a server are considered abandoned after six months and are trivially subpoenaed by law enforcement. A group of ISPs is lobbying to extend the protections afforded to locally stored messages to messages stored on third party servers, but the Obama administration is urging Congress not to reform the law.&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F11%2F04%2F07%2F232224%2FObama-Administration-Wants-Your-Old-Email%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Obama+Administration+Wants+Your+Old+Email%3A+http%3A%2F%2Fbit.ly%2Fh4ZUrG" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/11/04/07/232224/Obama-Administration-Wants-Your-Old-Email?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074198&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/uwPZ8rhDsm2YgXbkWf8Dt1iRLLo/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/uwPZ8rhDsm2YgXbkWf8Dt1iRLLo/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/uwPZ8rhDsm2YgXbkWf8Dt1iRLLo/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/uwPZ8rhDsm2YgXbkWf8Dt1iRLLo/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/parDc6QiCaw" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-08T00:00:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>good-people-have-nothing-to-hide</slash:department>
+<slash:section>yro</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/11/04/07/232224/Obama-Administration-Wants-Your-Old-Email?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://hardware.slashdot.org/story/11/04/07/2218220/Which-Comic-Character-Is-the-Greatest-Engineer?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Which Comic Character Is the Greatest Engineer?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/AN3opk0ZcOk/Which-Comic-Character-Is-the-Greatest-Engineer</link>
+<description>ptorrone writes "From Bruce Wayne to Lex Luthor to Tony Stark &amp;mdash; the most popular comic heroes are more than just beefy guys in skin tight suits, they're also business persons, titans of industry and brilliant engineers. While there will always be a lot of debate on who is the strongest or fastest, MAKE has an overview of their 14 top comic book engineers, scientists and hackers."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F11%2F04%2F07%2F2218220%2FWhich-Comic-Character-Is-the-Greatest-Engineer%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Which+Comic+Character+Is+the+Greatest+Engineer%3F%3A+http%3A%2F%2Fbit.ly%2FdL9IOy" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/11/04/07/2218220/Which-Comic-Character-Is-the-Greatest-Engineer?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074170&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/p4Fo5bZrw7tR-SIxxEcyrkuBWcc/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/p4Fo5bZrw7tR-SIxxEcyrkuBWcc/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/p4Fo5bZrw7tR-SIxxEcyrkuBWcc/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/p4Fo5bZrw7tR-SIxxEcyrkuBWcc/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/AN3opk0ZcOk" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-07T23:14:00+00:00</dc:date>
+<dc:subject>hardhack</dc:subject>
+<slash:department>evil-geniuses-for-a-better-tomorrow</slash:department>
+<slash:section>hardware</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/11/04/07/2218220/Which-Comic-Character-Is-the-Greatest-Engineer?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://hardware.slashdot.org/story/11/04/07/2125238/Facebook-Opens-Their-Data-Center-Infrastructure?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Facebook Opens Their Data Center Infrastructure</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/imgoDhQuRYY/Facebook-Opens-Their-Data-Center-Infrastructure</link>
+<description>gnu let us know about Facebook releasing specifications for their data center infrastructure as an open hardware project. They've released detailed electrical and mechanical data for everything from the server motherboards to the data center power distribution system. Digging further reveals that the specifications are licensed under the new Open Web Foundation Agreement which appears to be an actual open license. The breadth of data released really is quite amazing.&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F11%2F04%2F07%2F2125238%2FFacebook-Opens-Their-Data-Center-Infrastructure%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Facebook+Opens+Their+Data+Center+Infrastructure%3A+http%3A%2F%2Fbit.ly%2Fijiqwp" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/11/04/07/2125238/Facebook-Opens-Their-Data-Center-Infrastructure?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074094&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/OZc5HqfAkhmxBXHweAR_TQmG8BY/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/OZc5HqfAkhmxBXHweAR_TQmG8BY/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/OZc5HqfAkhmxBXHweAR_TQmG8BY/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/OZc5HqfAkhmxBXHweAR_TQmG8BY/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/imgoDhQuRYY" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-07T22:28:00+00:00</dc:date>
+<dc:subject>facebook</dc:subject>
+<slash:department>but-facebook-is-supposed-to-be-evil</slash:department>
+<slash:section>hardware</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/11/04/07/2125238/Facebook-Opens-Their-Data-Center-Infrastructure?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://developers.slashdot.org/story/11/04/07/2053219/SQL-and-NoSQL-are-Two-Sides-of-the-Same-Coin?utm_source=rss1.0&amp;utm_medium=feed">
+<title>SQL and NoSQL are Two Sides of the Same Coin</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Y0WEzUUKy2I/SQL-and-NoSQL-are-Two-Sides-of-the-Same-Coin</link>
+<description>An anonymous reader writes "NoSQL databases have become a hot topic with their promise to solve the problem of distilling valuable information and business insight from big data in a scalable and programmer-friendly way. Microsoft researchers Erik Meijer and Gavin Bierman ... present a mathematical model and standardized query language that could be used to unify SQL and NoSQL data models."
+
+Unify is not quite correct; the article shows that relational SQL and key-value NoSQL models are mathematically dual, and provides a monadic query language for what they have coined coSQL.&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F11%2F04%2F07%2F2053219%2FSQL-and-NoSQL-are-Two-Sides-of-the-Same-Coin%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=SQL+and+NoSQL+are+Two+Sides+of+the+Same+Coin%3A+http%3A%2F%2Fbit.ly%2FgsN3On" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://developers.slashdot.org/story/11/04/07/2053219/SQL-and-NoSQL-are-Two-Sides-of-the-Same-Coin?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2074062&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/rkn6i_iWUFYFdbQm38HP3V9IihE/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/rkn6i_iWUFYFdbQm38HP3V9IihE/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/rkn6i_iWUFYFdbQm38HP3V9IihE/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/rkn6i_iWUFYFdbQm38HP3V9IihE/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Y0WEzUUKy2I" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-07T21:45:00+00:00</dc:date>
+<dc:subject>database</dc:subject>
+<slash:department>dualistic-monadic-monsters-from-the-sea</slash:department>
+<slash:section>developers</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://developers.slashdot.org/story/11/04/07/2053219/SQL-and-NoSQL-are-Two-Sides-of-the-Same-Coin?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<item rdf:about="http://tech.slashdot.org/story/11/04/07/1946244/Columbia-University-Ending-the-Kermit-Project?utm_source=rss1.0&amp;utm_medium=feed">
+<title>Columbia University Ending the Kermit Project</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/7MB5wt231xM/Columbia-University-Ending-the-Kermit-Project</link>
+<description>An anonymous reader writes "Columbia University has announced that the Kermit Project will be ended in July 2011, after more than 30 years in existence. Open Kermit (C-Kermit) will remain available, but without any support or ongoing development. Kermit-95, which cannot be open-sourced, will remain available for license purchases but without support or maintenance."&lt;p&gt;&lt;a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F11%2F04%2F07%2F1946244%2FColumbia-University-Ending-the-Kermit-Project%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook" target="_blank" title="Share on Facebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+   
+      &lt;a href="http://twitter.com/home?status=Columbia+University+Ending+the+Kermit+Project%3A+http%3A%2F%2Fbit.ly%2FgnDRta" target="_blank" title="Share on Twitter"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/11/04/07/1946244/Columbia-University-Ending-the-Kermit-Project?utm_source=rss1.0&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=2073968&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="http://feedads.g.doubleclick.net/~at/MHA0ndZkvaAZSm21MsCKnijFOyM/0/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/MHA0ndZkvaAZSm21MsCKnijFOyM/0/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://feedads.g.doubleclick.net/~at/MHA0ndZkvaAZSm21MsCKnijFOyM/1/da"&gt;&lt;img src="http://feedads.g.doubleclick.net/~at/MHA0ndZkvaAZSm21MsCKnijFOyM/1/di" border="0" ismap="true"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/7MB5wt231xM" height="1" width="1"/&gt;</description>
+<dc:creator>Unknown Lamer</dc:creator>
+<dc:date>2011-04-07T21:01:00+00:00</dc:date>
+<dc:subject>software</dc:subject>
+<slash:department>how-will-ms-piggy-transfer-files-now</slash:department>
+<slash:section>technology</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/11/04/07/1946244/Columbia-University-Ending-the-Kermit-Project?utm_source=rss1.0&amp;utm_medium=feed</feedburner:origLink></item>
+
+<textinput rdf:about="http://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://slashdot.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>
+
