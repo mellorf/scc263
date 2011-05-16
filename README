@@ -1,1 +1,6 @@
 Códigos desenvolvidos na disciplina SCC263
+
+
+  git add README
+  git commit -m 'first commit'
+  git push -u origin master
