@@ -2,9 +2,14 @@
 	<jsp:param name="type" value="5"/>
 </jsp:include>
 <%@page import="org.usp.dropbox.core.*" %>
+<%@page import="java.util.*" %>
+<%
+	Locale currentLocale = request.getLocale();
+	ResourceBundle msg = ResourceBundle.getBundle("org.usp.dropbox.bundles.messages", currentLocale);
+%>
 <html>
 	<head>
-		<title>MountBOX</title>
+		<title><%= msg.getString("TITLE") %></title>
 		<link rel='stylesheet' type='text/css' href='css/style.css'>
 	</head>
 
@@ -17,8 +22,8 @@
 						User user = (User) session.getAttribute("user");
 						out.print(user.getINode());
 
-						%>'>Home Directory</a></td>
-				<td class="menu"><a href="/dropbox/userservlet?type=4">Logout</a></td>
+						%>'><%= msg.getString("HOME") %></a></td>
+				<td class="menu"><a href="/dropbox/userservlet?type=4"><%= msg.getString("LOGOUT") %></a></td>
 			</tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
@@ -39,13 +44,13 @@
 						<tr><td colspan="2">&nbsp;</td></tr>
 						<tr>
 							<td align="center" colspan="2">
-								<input class="text" type="submit" value="Delete">
+								<input class="text" type="submit" value='<%= msg.getString("DELETE") %>'>
 								&nbsp;&nbsp;&nbsp;
 
-								<input class="text" type="button" value="Create"
+								<input class="text" type="button" value='<%= msg.getString("CREATE") %>'
 								onClick="document.form.action='create.jsp'; document.form.submit();">
 								&nbsp;&nbsp;&nbsp;
-								<input class="text" type="button" value="Upload" 
+								<input class="text" type="button" value='<%= msg.getString("UPLOAD") %>'
 								onClick="document.form.action='upload.jsp'; document.form.submit();">
 							</td>
 						</tr>
@@ -56,7 +61,7 @@
 			<tr><td colspan="2">&nbsp;</td></tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
-			<tr><td colspan="2" class="copyleft">MountBOX -- copyleft by Mello</td></tr>
+			<tr><td colspan="2" class="copyleft"><%= msg.getString("COPYLEFT") %></td></tr>
 		</table>
 	</body>
 </html>

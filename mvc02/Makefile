@@ -26,7 +26,7 @@ clean:
 war: clean all
 	mkdir war
 	mkdir -p config/WEB-INF/classes/org/usp/$(NAME)/bundles
-	#cp src/org/usp/$(NAME)/bundles/*.properties config/WEB-INF/classes/org/usp/$(NAME)/bundles/
+	cp src/org/usp/$(NAME)/bundles/*.properties config/WEB-INF/classes/org/usp/$(NAME)/bundles/
 	cp -ax pages/* war/
 	cp -ax config/* war/
 	jar cvf $(NAME).war -C war .

@@ -1,6 +1,11 @@
+<%@page import="java.util.*" %>
+<%
+	Locale currentLocale = request.getLocale();
+	ResourceBundle msg = ResourceBundle.getBundle("org.usp.dropbox.bundles.messages", currentLocale);
+%>
 <html>
 	<head>
-		<title>MountBOX</title>
+		<title><%= msg.getString("TITLE") %></title>
 		<link rel='stylesheet' type='text/css' href='css/style.css'>
 	</head>
 
@@ -19,16 +24,15 @@
 		int msg = Integer.parseInt(request.getParameter("msg"));
 
 		switch (msg) {
-			case -1: out.println("General error."); break;
-			case 0: out.println("Operation not defined."); break;
-			//case 1: out.println(); break;
+			case -1: out.println(msg.getString("GENERAL_ERROR")); break;
+			case 0: out.println(msg.getString("NOTDEFINED_ERROR")); break;
 			case 2: 
-				out.println("User registered."); 
+				out.println(msg.getString("USERREGISTERED")); 
 				out.println("&nbsp;&nbsp;&nbsp;"); 
 				out.println("<input type=button value=Close onClick='javascript:window.close()'>");
 				break;
-			case 3: out.println("User information incorrect."); break;
-			case 404: out.println("Operation not allowed."); break;
+			case 3: out.println(msg.getString("USERINFINCORRECT")); break;
+			case 404: out.println(msg.getString("OPERATIONNOTALLOWED")); break;
 		}
 	%>
 							
@@ -40,7 +44,7 @@
 			<tr><td colspan="2">&nbsp;</td></tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
-			<tr><td colspan="2" class="copyleft">MountBOX -- copyleft by Mello</td></tr>
+			<tr><td colspan="2" class="copyleft"><%= msg.getString("COPYLEFT") %></td></tr>
 		</table>
 	</body>
 </html>
