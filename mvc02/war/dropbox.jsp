@@ -1,7 +1,7 @@
 <jsp:include page="userservlet">
 	<jsp:param name="type" value="5"/>
 </jsp:include>
-
+<%@page import="org.usp.dropbox.core.*" %>
 <html>
 	<head>
 		<title>MountBOX</title>
@@ -12,7 +12,12 @@
 		<table border="0" align="center">
 			<tr align="center"><td colspan="2"><img src="images/mount.jpg" border="0"></td></tr>
 			<tr>
-				<td class="menu"><a href="dropbox.jsp">Home Directory</a></td>
+				<td class="menu"><a href='dropbox.jsp?iparent=<%
+
+						User user = (User) session.getAttribute("user");
+						out.print(user.getINode());
+
+						%>'>Home Directory</a></td>
 				<td class="menu"><a href="/dropbox/userservlet?type=4">Logout</a></td>
 			</tr>
 			<tr><td colspan="2">&nbsp;</td></tr>
