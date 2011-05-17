@@ -1,23 +1,34 @@
 package org.usp.dropbox.bundles;
 
 import java.util.*;
+import java.text.*;
 import org.usp.dropbox.config.*;
 
 public class ViewHelper implements Default {
 
 	public static String getDirectoryEntry(int inode, String name) {
+		ResourceBundle rb = ResourceBundle.getBundle("org.usp.dropbox.bundles.view");
 		StringBuffer buffer = new StringBuffer("");
+		MessageFormat formatter = new MessageFormat("");
+		Object[] parameters = null;
 
 		if (inode != -1) {
-			buffer.append("<tr>\n");
-			buffer.append("<td class=\"text\">\n");
+			buffer.append(rb.getString("STARTTAG"));
 			if (!name.equals("..")) {
-				buffer.append("<input type='radio' name='inode' value='"+inode+"' onClick='document.form.type.value=104'/>");
+				parameters = new Object[] { new Integer(inode), new Integer(104) };
+				formatter.applyPattern(rb.getString("RADIO"));
+				buffer.append(formatter.format(parameters));
 			}
-			buffer.append("<img src=\"images/close.png\" border=\"0\" width=\"25\">\n");
-			buffer.append("<a href=\"dropbox.jsp?iparent="+inode+"\">"+name+"</a>");
-			buffer.append("</td>\n");
-			buffer.append("</tr>\n");
+
+			parameters = new Object[] { "images/close.png" };
+			formatter.applyPattern(rb.getString("IMAGE"));
+			buffer.append(formatter.format(parameters));
+			
+			parameters = new Object[] { new Integer(inode), name };
+			formatter.applyPattern(rb.getString("PARENT"));
+			buffer.append(formatter.format(parameters));
+
+			buffer.append(rb.getString("ENDTAG"));
 		}
 
 		return buffer.toString();
@@ -25,37 +36,41 @@ public class ViewHelper implements Default {
 
 
 	public static String getDropFileEntry(int iparent, int inode, String name, String mimeType) {
+		ResourceBundle rb = ResourceBundle.getBundle("org.usp.dropbox.bundles.view");
 		StringBuffer buffer = new StringBuffer("");
+		MessageFormat formatter = new MessageFormat("");
+		Object[] parameters = null;
 
-		System.out.println("drop: "+inode+", "+name+", "+mimeType);
+		buffer.append(rb.getString("STARTTAG"));
 
-		buffer.append("<tr>");
-		buffer.append("<td class=\"text\">");
-		buffer.append("<input type='radio' name='inode' value='"+inode+"' onClick='document.form.type.value=102'/>");
-		buffer.append("<img src=\"");
-			
-		// helper
+		parameters = new Object[] { new Integer(inode), new Integer(102) };
+		formatter.applyPattern(rb.getString("RADIO"));
+		buffer.append(formatter.format(parameters));
+
 		if (mimeType.equals("application/x-pdf")
 			|| mimeType.equals("application/pdf")) {
-
-			buffer.append("images/pdf.gif");
+			parameters = new Object[] { "images/pdf.gif" };
 		} else if (mimeType.equals("application/x-mpg")
 			|| mimeType.equals("application/mpg")
 			|| mimeType.equals("application/x-audio")
 			|| mimeType.equals("application/mov")) {
-			buffer.append("images/movie.gif");
+			parameters = new Object[] { "images/movie.gif" };
 		} else if (mimeType.equals("image/jpg") 
 			|| mimeType.equals("image/png") 
 			|| mimeType.equals("image/gif")) {
-			buffer.append("images/image.png");
+			parameters = new Object[] { "images/image.png" };
 		} else {
-			buffer.append("images/file.png");
+			parameters = new Object[] { "images/file.png" };
 		}
 
-		buffer.append("\" border=\"0\" width=\"25\">");
-		buffer.append("<a href=\"/dropbox/dropfileservlet?type=101&iparent="+iparent+"&inode="+inode+"\">"+name+"</a>");
-		buffer.append("</td>");
-		buffer.append("</tr>");
+		formatter.applyPattern(rb.getString("IMAGE"));
+		buffer.append(formatter.format(parameters));
+
+		parameters = new Object[] { new Integer(iparent), new Integer(inode), name};
+		formatter.applyPattern(rb.getString("FILELINK"));
+		buffer.append(formatter.format(parameters));
+
+		buffer.append(rb.getString("ENDTAG"));
 
 		return buffer.toString();
 	}

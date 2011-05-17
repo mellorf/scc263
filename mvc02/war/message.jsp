@@ -21,9 +21,9 @@
 						<tr>
 							<td class="text">
 	<%
-		int msg = Integer.parseInt(request.getParameter("msg"));
+		int msgresult = Integer.parseInt(request.getParameter("msg"));
 
-		switch (msg) {
+		switch (msgresult) {
 			case -1: out.println(msg.getString("GENERAL_ERROR")); break;
 			case 0: out.println(msg.getString("NOTDEFINED_ERROR")); break;
 			case 2: 
