@@ -1,0 +1,24 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
+  <servlet>
+    <servlet-name>userservlet</servlet-name>
+    <servlet-class>org.usp.dropbox.servlets.UserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userservlet</servlet-name>
+    <url-pattern>/userservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>dropfileservlet</servlet-name>
+    <servlet-class>org.usp.dropbox.servlets.DropFileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>dropfileservlet</servlet-name>
+    <url-pattern>/dropfileservlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

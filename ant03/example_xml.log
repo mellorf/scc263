@@ -1,0 +1,80 @@
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159755917" level="DEBUG" thread="main">
+<log4j:message><![CDATA[This is my debug message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159755932" level="INFO" thread="main">
+<log4j:message><![CDATA[This is my info message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159755933" level="WARN" thread="main">
+<log4j:message><![CDATA[This is my warn message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159755935" level="ERROR" thread="main">
+<log4j:message><![CDATA[This is my error message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159755936" level="FATAL" thread="main">
+<log4j:message><![CDATA[This is my fatal message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159904686" level="DEBUG" thread="main">
+<log4j:message><![CDATA[This is my debug message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159904705" level="INFO" thread="main">
+<log4j:message><![CDATA[This is my info message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159904707" level="WARN" thread="main">
+<log4j:message><![CDATA[This is my warn message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159904709" level="ERROR" thread="main">
+<log4j:message><![CDATA[This is my error message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306159904711" level="FATAL" thread="main">
+<log4j:message><![CDATA[This is my fatal message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160046599" level="DEBUG" thread="main">
+<log4j:message><![CDATA[This is my debug message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160046703" level="INFO" thread="main">
+<log4j:message><![CDATA[This is my info message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160046715" level="WARN" thread="main">
+<log4j:message><![CDATA[This is my warn message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160046718" level="ERROR" thread="main">
+<log4j:message><![CDATA[This is my error message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160046725" level="FATAL" thread="main">
+<log4j:message><![CDATA[This is my fatal message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160909729" level="DEBUG" thread="main">
+<log4j:message><![CDATA[This is my debug message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160909744" level="INFO" thread="main">
+<log4j:message><![CDATA[This is my info message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160909746" level="WARN" thread="main">
+<log4j:message><![CDATA[This is my warn message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160909747" level="ERROR" thread="main">
+<log4j:message><![CDATA[This is my error message.]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.mobilefish.Log4jDemo" timestamp="1306160909749" level="FATAL" thread="main">
+<log4j:message><![CDATA[This is my fatal message.]]></log4j:message>
+</log4j:event>
+

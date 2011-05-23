@@ -1,0 +1,14 @@
+
+package events;
+
+import java.io.*;
+import java.util.*;
+
+public class Event {
+    private EventPK eventPK;
+    private String description;
+
+    public Event() {} 
+    public String getDescription() { return description; }
+    public void setDescription(String description) { this.description = description; }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="sistema.User" table="tuser">
+        <id name="id" column="uid">
+            <generator class="increment"/>
+        </id>
+        <property name="name"/>
+        <property name="login"/> 
+	<property name="passwd"/> 
+
+	<set name="contas" table="tuser_tconta">
+		<key column="uid"/>
+		<many-to-many column="cid" class="sistema.Conta"/>
+	</set>
+
+	<set name="emailAddresses" table="tuser_email">
+		<key column="uid"/>
+		<element type="string" column="email"/>
+	</set>
+    </class>
+
+</hibernate-mapping>

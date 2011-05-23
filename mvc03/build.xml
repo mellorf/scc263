@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<project name="MountBox" default="buildWar" basedir=".">
+
+	<property name="pages" value="${basedir}/pages"/>
+	<property name="config" value="${basedir}/config"/>
+	<property name="src" value="${basedir}/src"/>
+	<property name="build" 
+		value="${basedir}/config/WEB-INF/classes"/>
+	<property name="lib" 
+		value="${basedir}/config/WEB-INF/lib"/>
+	<property name="webinf" value="${basedir}/config/WEB-INF"/>
+	<property name="warDir" value="${basedir}/war"/>
+	<property name="warFile" value="mvc03.war"/>
+	<property name="tomcatDir" value="/usr/local/apache-tomcat-7.0.8"/>
+
+	<path id="classpath">
+		<fileset dir="${lib}" includes="**/*.jar"/>
+		<fileset dir="${tomcatDir}/lib" includes="**/*.jar"/>
+	</path>
+
+	<target name="create">
+		<mkdir dir="${pages}"/>
+		<mkdir dir="${config}"/>
+		<mkdir dir="${webinf}"/>
+		<mkdir dir="${build}"/>
+		<mkdir dir="${src}"/>
+		<mkdir dir="${lib}"/>
+		<mkdir dir="${warDir}"/>
+	</target>
+
+	<!-- Fazendo compile -->
+	<target name="compile">
+		<mkdir dir="${build}"/>
+		<javac srcdir="${src}" 
+			destdir="${build}" 
+			debug="true" includes="**/*.java">
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+
+	<target name="deploy" depends="buildWar">
+		<copy todir="${tomcatDir}/webapps">
+		   <fileset dir="${basedir}" includes="${warFile}" /> 
+	        </copy>
+	</target>
+
+	<!-- Gerar o War -->
+	<target name="buildWar" depends="compile">
+		<mkdir dir="${warDir}"/>
+		<copy todir="${warDir}">
+		   <fileset dir="${config}" includes="**/*.*" /> 
+		   <fileset dir="${pages}" includes="**/*.*" /> 
+	        </copy>
+
+	    <jar jarfile="${basedir}/${warFile}" basedir="${warDir}" />
+	</target>
+
+	<target name="clean" >
+		<delete dir="${build}"/>
+		<delete file="${basedir}/${warFile}"/>
+	</target>
+</project>

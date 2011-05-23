@@ -38,15 +38,19 @@ public class DropFileServlet extends HttpServlet implements Default {
 		int type = -1;
 		FileItem fitem = null;
 
-		boolean isMultipart = ServletFileUpload.isMultipartContent(request);
+		boolean isMultipart = ServletFileUpload.
+			isMultipartContent(request);
 
 		if (isMultipart) {
-			   FileItemFactory factory = new DiskFileItemFactory();
-			   ServletFileUpload upload = new ServletFileUpload(factory);
+			   FileItemFactory factory = 
+				   new DiskFileItemFactory();
+			   ServletFileUpload upload = 
+				   new ServletFileUpload(factory);
 
 			   List items = null;
 			   try {
-				   items = upload.parseRequest(request);
+				   items = 
+					upload.parseRequest(request);
 			   } catch (FileUploadException e) {
 				   e.printStackTrace();
 			   }
@@ -119,30 +123,33 @@ public class DropFileServlet extends HttpServlet implements Default {
 				// file inode
 				
 				file = new DropFile(
-						Integer.parseInt(
-						request.getParameter("inode")
-						)
-						);
+					Integer.parseInt(
+					request.getParameter("inode")
+					)
+					);
 
-				String filename = file.getParent().getPath()+"/"+
-						file.getName();
+				String filename = file.getParent().
+					getPath()+"/"+
+					file.getName();
 
 				String mimeType = file.getMimeType();
 				response.setContentType(mimeType);
 
 				File downfile = new File(filename);
 				response.setContentLength(
-						(int)downfile.length()
-						);
+					(int)downfile.length()
+					);
 
-				FileInputStream in = new FileInputStream(
+				FileInputStream in = 
+					new FileInputStream(
 						downfile
 						);
 
 				// Enviando
 				byte[] buf = new byte[1024];
 				int count = 0;
-	    			OutputStream os = response.getOutputStream();
+	    			OutputStream os = 
+					response.getOutputStream();
 				while ((count = in.read(buf)) >= 0) {
 				    os.write(buf, 0, count);
 				}

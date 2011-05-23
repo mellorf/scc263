@@ -1,10 +1,11 @@
 package com.mobilefish;
 
-import org.apache.log4j.Logger;
+import org.apache.log4j.Logger; // usar o log4j
 
 public class Log4jDemo {
 
-	static Logger log = Logger.getLogger("com.mobilefish.Log4jDemo");
+	static Logger log = 
+		Logger.getLogger("com.mobilefish.Log4jDemo");
 
 	public static void main(String args[]) {
 

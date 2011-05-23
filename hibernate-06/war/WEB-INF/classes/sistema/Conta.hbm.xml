@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="sistema.Conta" table="TCONTA">
+        <id name="id" column="TCONTA_ID">
+            <generator class="increment"/>
+        </id>
+        <property name="money" type="float" />
+    </class>
+
+</hibernate-mapping>

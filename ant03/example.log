@@ -1,0 +1,75 @@
+[DEBUG] 02:48 (?:main:?)
+This is my debug message.
+
+[ INFO] 02:48 (?:main:?)
+This is my info message.
+
+[ WARN] 02:48 (?:main:?)
+This is my warn message.
+
+[ERROR] 02:48 (?:main:?)
+This is my error message.
+
+[FATAL] 02:48 (?:main:?)
+This is my fatal message.
+
+[DEBUG] 09:15 (?:main:?)
+This is my debug message.
+
+[ INFO] 09:15 (?:main:?)
+This is my info message.
+
+[ WARN] 09:15 (?:main:?)
+This is my warn message.
+
+[ERROR] 09:15 (?:main:?)
+This is my error message.
+
+[FATAL] 09:15 (?:main:?)
+This is my fatal message.
+
+[DEBUG] 11:44 (?:main:?)
+This is my debug message.
+
+[ INFO] 11:44 (?:main:?)
+This is my info message.
+
+[ WARN] 11:44 (?:main:?)
+This is my warn message.
+
+[ERROR] 11:44 (?:main:?)
+This is my error message.
+
+[FATAL] 11:44 (?:main:?)
+This is my fatal message.
+
+[DEBUG] 14:06 (?:main:?)
+This is my debug message.
+
+[ INFO] 14:06 (?:main:?)
+This is my info message.
+
+[ WARN] 14:06 (?:main:?)
+This is my warn message.
+
+[ERROR] 14:06 (?:main:?)
+This is my error message.
+
+[FATAL] 14:06 (?:main:?)
+This is my fatal message.
+
+[DEBUG] 28:29 (?:main:?)
+This is my debug message.
+
+[ INFO] 28:29 (?:main:?)
+This is my info message.
+
+[ WARN] 28:29 (?:main:?)
+This is my warn message.
+
+[ERROR] 28:29 (?:main:?)
+This is my error message.
+
+[FATAL] 28:29 (?:main:?)
+This is my fatal message.
+
