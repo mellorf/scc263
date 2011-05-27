@@ -39,7 +39,7 @@ public class User extends HttpServlet {
 				session.getTransaction().commit();
 
 			} catch (Exception e) { 
-				session.getTransaction().rollBack();
+				//session.getTransaction().rollback();
 				e.printStackTrace(); 
 				msg = "msg=1";
 			} finally {

@@ -13,14 +13,17 @@ public class Test {
 
         session.beginTransaction();
 
+	// pojo (plain old java object)
 	Pessoa p = new Pessoa();
 	p.setNome("Joao");
 	p.setEndereco("Endereco");
 	p.setTelefone("1111");
 	p.setEmail("email@email.com");
 
+	// Object
 	Integer id = (Integer) session.save(p);
 	System.out.println("chave primaria --> "+id);
+
         session.getTransaction().commit();
 
         Database.getConfiguracao().getCurrentSession().close();

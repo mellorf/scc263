@@ -2,12 +2,12 @@ package usp;
 
 public class Pessoa {
 	private Integer id;
-	//private int id;
 	private String nome;
 	private String endereco;
 	private String telefone;
 	private String email;
 
+	// obrigado a criar um construtor vazio
 	public Pessoa() {}
 
 	public void setId(Integer id) { this.id = id; }

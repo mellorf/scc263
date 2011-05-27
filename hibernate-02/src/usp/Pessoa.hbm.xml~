@@ -12,7 +12,8 @@
 	<property name="nome"/>
         <property name="endereco"/> 
         <property name="telefone"/> 
-        <property name="email"/> 
+	<property name="email"/>
+	<!-- type="varchar2" unique="true" nullable="false"/--> 
     </class>
 
 </hibernate-mapping>

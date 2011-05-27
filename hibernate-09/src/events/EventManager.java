@@ -47,7 +47,7 @@ public class EventManager {
 	System.out.println(e.getId()+", "+e.getTitle()+", "+e.getPicture());
 
 	BufferedOutputStream bufferedOutput = null;
-	bufferedOutput = new BufferedOutputStream(new FileOutputStream("/tmp/computer.jpg"));
+	bufferedOutput = new BufferedOutputStream(new FileOutputStream("/tmp/mount-output.jpg"));
 	bufferedOutput.write(e.getPicture());
 	bufferedOutput.close();
 
@@ -58,7 +58,7 @@ public class EventManager {
         EventManager mgr = new EventManager();
         if (args[0].equals("store")) {
             mgr.createAndStoreEvent("My Event", new Date(), 
-			    "/tmp/c.jpg");
+			    "/tmp/mount.jpg");
 	    mgr.load(new Long(1));
 	}
     }

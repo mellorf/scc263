@@ -32,7 +32,10 @@ public class User extends HttpServlet {
 			String msg = "msg=0";
 
 			try {
-				Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+				Session session = 
+					HibernateUtil.
+					getSessionFactory().
+					getCurrentSession();
 
 				session.beginTransaction();
 				session.save(user);

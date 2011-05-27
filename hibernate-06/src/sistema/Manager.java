@@ -11,12 +11,18 @@ public class Manager {
 
         if (args[0].equals("store")) {
 		for (int i = 1; i <= 10; i++) {
+			// inserindo usuario e conta
             		mgr.createAndStore("nome "+i, "login "+i, "senha "+i, new Float(100.0));
+
+			// associando usuario e conta
     			mgr.addContaToUser(new Long(i), new Long(i));
 		}
         }
 
+	// buscando usuario por id
 	mgr.findUser(new Long(1));
+
+	// buscando contas de um usuario
     	mgr.findContasFromUser(new Long(5));
 
         HibernateUtil.getSessionFactory().close();
@@ -47,8 +53,11 @@ public class Manager {
 	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	session.beginTransaction();
 
+	// findByPK
 	Conta conta = (Conta) session.load(Conta.class, contaId);
+	// findByPK
 	User user = (User) session.load(User.class, userId);
+	// relacionamento
 	user.getContas().add(conta);
 
 	// nao ha necessidade de save, Hibernate detecta e salva
@@ -60,6 +69,8 @@ public class Manager {
 		 HibernateUtil.getSessionFactory().getCurrentSession();
 
 	    session.beginTransaction();
+
+	    // DUAS FORMAS DE BUSCA
 
 	    // busca e faz detachment
 	    // OSQL - Object SQL
@@ -86,6 +97,8 @@ public class Manager {
 
 	    Session session = 
 		HibernateUtil.getSessionFactory().getCurrentSession();
+
+	    // PRIMEIRA FORMA
 
 	    session.beginTransaction();
 	    User user01 = (User) session

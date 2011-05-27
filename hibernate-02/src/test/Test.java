@@ -13,6 +13,7 @@ public class Test {
 
         session.beginTransaction();
 
+	// pojo (plain old java object)
 	Pessoa p = new Pessoa();
 	p.setNome("Joao");
 	p.setEndereco("Endereco");
@@ -22,6 +23,7 @@ public class Test {
 	// Object
 	Integer id = (Integer) session.save(p);
 	System.out.println("chave primaria --> "+id);
+
         session.getTransaction().commit();
 
         Database.getConfiguracao().getCurrentSession().close();
