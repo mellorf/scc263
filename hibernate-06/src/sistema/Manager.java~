@@ -12,7 +12,9 @@ public class Manager {
         if (args[0].equals("store")) {
 		for (int i = 1; i <= 10; i++) {
 			// inserindo usuario e conta
-            		mgr.createAndStore("nome "+i, "login "+i, "senha "+i, new Float(100.0));
+            		mgr.createAndStore("nome "+i, 
+				"login "+i, "senha "+i, 
+				new Float(100.0));
 
 			// associando usuario e conta
     			mgr.addContaToUser(new Long(i), new Long(i));
@@ -28,8 +30,11 @@ public class Manager {
         HibernateUtil.getSessionFactory().close();
     }
 
-    private void createAndStore(String name, String login, String passwd, Float money) {
-        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+    private void createAndStore(String name, String login, 
+		    String passwd, Float money) {
+        Session session = 
+		HibernateUtil.getSessionFactory().
+			getCurrentSession();
 
         session.beginTransaction();
 
@@ -55,8 +60,10 @@ public class Manager {
 
 	// findByPK
 	Conta conta = (Conta) session.load(Conta.class, contaId);
+
 	// findByPK
 	User user = (User) session.load(User.class, userId);
+
 	// relacionamento
 	user.getContas().add(conta);
 
@@ -98,22 +105,27 @@ public class Manager {
 	    Session session = 
 		HibernateUtil.getSessionFactory().getCurrentSession();
 
-	    // PRIMEIRA FORMA
-
+	    // PARA RECUPERAR RELACIONAMENTO
 	    session.beginTransaction();
+
+	    // select * from tuser, tuser_tconta, tconta where ...
 	    User user01 = (User) session
 		    .createQuery("select u from User u left join fetch u.contas where u.id = :uid")
 		    .setParameter("uid", userId)
 		    .uniqueResult(); // busca e faz detachment
+
 	    session.getTransaction().commit();
 
+	    // ASM
 	    System.out.println("Contas = "+user01.getContas().size());
 	
 	    Iterator i = user01.getContas().iterator();
+
 	    while (i.hasNext()) {
 		Conta c = (Conta) i.next();
 		System.out.println(user01.getId()+" "+
 				c.getId()+" "+c.getMoney());
+		// System.gc();
 	    }
     }
 }

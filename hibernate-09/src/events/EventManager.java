@@ -44,7 +44,8 @@ public class EventManager {
 
 	Event e = (Event) session.load(Event.class, id);
 
-	System.out.println(e.getId()+", "+e.getTitle()+", "+e.getPicture());
+	System.out.println(e.getId()+", "+e.getTitle()+", "+
+			e.getPicture());
 
 	BufferedOutputStream bufferedOutput = null;
 	bufferedOutput = new BufferedOutputStream(new FileOutputStream("/tmp/mount-output.jpg"));

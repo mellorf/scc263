@@ -13,6 +13,7 @@
         <property name="login"/> 
 	<property name="passwd"/> 
 
+	<!-- relacionamento -->
 	<set name="contas" table="tuser_tconta">
 		<key column="uid"/>
 		<many-to-many column="cid" class="sistema.Conta"/>
