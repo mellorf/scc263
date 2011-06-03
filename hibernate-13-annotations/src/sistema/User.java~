@@ -44,12 +44,13 @@ public class User implements Serializable {
 	@JoinTable(
 			name="tuser_tconta",
 			joinColumns = { 
-				@JoinColumn(name="uid", unique = true)
+				@JoinColumn(name="uid")
 			},
 			inverseJoinColumns = { 
 				@JoinColumn(name="cid")
 			}
 		)
+	//private List<Conta> contas = new ArrayList<Conta>();
 	private Set<Conta> contas = new HashSet<Conta>();
 	public Set<Conta> getContas() { return this.contas; }
 	public void setContas(Set<Conta> contas) { this.contas = contas; }

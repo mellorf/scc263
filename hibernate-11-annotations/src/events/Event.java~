@@ -27,7 +27,7 @@ public class Event {
     // isso necessita desse construtor
     public Event() {} 
     public Integer getId() { return id; }
-    private void setId(Integer id) { this.id = id; }
+    public void setId(Integer id) { this.id = id; }
     public Date getDate() { return date; }
     public void setDate(Date date) { this.date = date; }
     public String getTitle() { return title; }

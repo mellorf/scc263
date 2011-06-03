@@ -14,7 +14,10 @@ public class EventManager {
         session.beginTransaction();
 
         Event theEvent = new Event();
-        theEvent.setId(new Integer(1));
+
+        //theEvent.setId(new Integer(1)); - NAUM PRECISO MAIS
+	// se deixar, tbm gera usando sequence
+	
         theEvent.setTitle(title);
         theEvent.setDate(theDate);
         System.out.println("Chave primária = "+session.save(theEvent));

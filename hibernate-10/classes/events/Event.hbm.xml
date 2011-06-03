@@ -10,7 +10,7 @@
 		<key-property name="date" type="timestamp" column="date"/>
 		<key-property name="title"/> 
 	</composite-id>
-	<property name="description"/>
+	<property name="description"/> <!--  type="text" / -->
     </class>
 
 </hibernate-mapping>

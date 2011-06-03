@@ -7,6 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.ManyToMany;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
 @Entity
 @Table(name="tconta")
@@ -30,4 +33,5 @@ public class Conta implements java.io.Serializable {
 
 	@ManyToMany(mappedBy="contas")  // map info is in person class
 	private Set<User> users;
+	public Set<User> getUsers() { return this.users; }
 }

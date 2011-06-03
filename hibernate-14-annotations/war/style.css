@@ -1,0 +1,23 @@
+body { FONT-FAMILY: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; BACKGROUND: white; COLOR: black; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; }
+
+a:link { color: #000066; font-size: 11px; text-decoration: none; }
+a:visited { color:#000066; font-size: 11px; text-decoration: none; }
+a:hover { color:#000066; font-size: 11px; text-decoration: underline; }
+
+DIV.titulo { font-size: 13px; color:#005e83; font-weight: bold; text-decoration: none; font-style: normal; text-align: justify; vertical-align: top; letter-spacing: normal; }
+DIV.fronttexto { font-size: 14px; color:#000066; font-weight: none; text-decoration: none; font-style: normal; text-align: justify; vertical-align: top; letter-spacing: normal; }
+
+/*########## definicoes do menu_body ##########*/
+TD.titulo { color:#ffffff; font-size: 12px; text-align: right; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.titulo2 { color:#222222; font-size: 12px; text-align: center; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.titulocentral { color:#222222; font-size: 14px; text-align: center; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.campocentral { color:#222222; font-size: 12px; text-align: center; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.news { color:#222222; font-size: 14px; text-align: center; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.newstitle { color:#000000; font-size: 14px; text-align: left; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.newsbody { color:#333333; font-size: 12px; text-align: justify; font-weight: normal; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.rsstitle { color:#000000; font-size: 14px; text-align: left; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.rssbody { color:#333333; font-size: 11px; text-align: center; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.campo { color:#353535; font-size: 11px; text-align: left; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.mensagem { color: red; font-size: 11px; text-align: left; font-weight: bold; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+TD.rodape { color: white; font-size: 10px; text-align: left; font-weight: normal; text-decoration: none; vertical-align: middle; letter-spacing: normal; }
+

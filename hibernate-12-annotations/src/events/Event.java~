@@ -3,10 +3,6 @@ package events;
 import java.util.*;
 
 import java.io.Serializable;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import javax.persistence.*;
 
 @Entity
@@ -16,7 +12,7 @@ public class Event {
     @Id 
     @Column(name = "id")
     @SequenceGenerator(name = "seq_event", sequenceName = "seq_event")
-    @GeneratedValue(generate = GeneratorType.SEQUENCE, generator = "seq_event")
+    @GeneratedValue(strategy=GenerationType.AUTO, generator="seq_event")
     private Integer id;
 
     @Column(name = "title")

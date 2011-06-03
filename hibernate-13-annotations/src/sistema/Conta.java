@@ -33,4 +33,5 @@ public class Conta implements java.io.Serializable {
 
 	@ManyToMany(mappedBy="contas")  // map info is in person class
 	private Set<User> users;
+	public Set<User> getUsers() { return this.users; }
 }

@@ -1,0 +1,36 @@
+package sistema;
+
+import java.util.*;
+import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.ManyToMany;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+@Entity
+@Table(name="tconta")
+public class Conta implements java.io.Serializable {
+	@Id
+	@Column(name="cid", unique=true, nullable=false)
+        @SequenceGenerator(name = "seq_cid", sequenceName = "seq_cid")
+        @GeneratedValue(strategy=GenerationType.AUTO, generator="seq_cid")
+	private Long cid;
+	@Column(name="money", nullable=false)
+	private Float money;
+
+	public Conta() {}
+
+	private void setId(Long cid) { this.cid = cid; }
+	public void setMoney(Float money) { this.money = money; }
+
+	public Long getId() { return cid; }
+	public Float getMoney() { return money; }
+
+
+	@ManyToMany(mappedBy="contas")  // map info is in person class
+	private Set<User> users;
+}
