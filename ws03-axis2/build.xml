@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Servico" basedir="." default="compile">
+    <property name="libdir" value="lib"/>
+    <property name="srcdir" value="src"/>
+    <property name="dstdir" value="build"/>
+    <property name="aardir" value="aar"/>
+    <property name="aarfile" value="ws03.aar"/>
+    <path id="classpath">
+        <pathelement location="build/classes"/>
+        <fileset dir="${libdir}" includes="**/*.jar"/>
+    </path>
+    <target name="create">
+        <mkdir dir="${dstdir}"/>
+        <mkdir dir="${aardir}"/>
+        <mkdir dir="${aardir}/META-INF"/>
+    </target>
+    <target name="compile" depends="create">
+        <javac srcdir="${srcdir}" destdir="${dstdir}" debug="true" includes="**/*.java">
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+    <target name="clean">
+        <delete dir="build"/>
+        <delete file="${aarfile}"/>
+        <delete dir="${aardir}"/>
+    </target>
+    <target name="aar" depends="compile">
+        <copy todir="${aardir}/META-INF">
+            <fileset dir="${basedir}" includes="services.xml"/>
+        </copy>
+        <copy todir="${aardir}">
+            <fileset dir="${dstdir}" includes="**/*.*"/>
+        </copy>
+        <jar jarfile="${aarfile}" basedir="${aardir}"/>
+    </target>
+</project>

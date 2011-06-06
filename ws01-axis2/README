@@ -1,0 +1,19 @@
+Copiar SimpleService.java para dentro de src
+
+Copiar services.xml para dentro de resources
+
+ant
+
+ant make.repo
+
+cp build/lib/SimpleService.aar /usr/local/axis2-1.5.1/repository/services/
+
+================
+
+http://localhost:8080/axis2/services/SimpleService/echo?value=tetete
+
+/usr/local/axis2-1.5.1/bin/wsdl2java.sh -uri http://localhost:8080/axis2/services/SimpleService?wsdl -o .
+
+javac -extdirs /usr/local/axis2-1.5.1/lib/ src/org/apache/ws/axis2/*.java -d temp/
+
+java -Djava.ext.dirs=/usr/local/axis2-1.5.1/lib -cp ./temp/ org.apache.ws.axis2.Client

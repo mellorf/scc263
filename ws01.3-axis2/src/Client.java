@@ -1,0 +1,15 @@
+import org.apache.ws.axis2.*;
+ 
+public class Client {
+    public static void main(String[] args) throws Exception {
+        Funcao2Stub stub = new Funcao2Stub();
+ 
+        Funcao2Stub.CpuTest request = new Funcao2Stub.CpuTest();
+        request.setArgs0(Integer.parseInt(args[0]));
+ 
+        Funcao2Stub.CpuTestResponse response = 
+		stub.cpuTest(request);
+ 
+        System.out.println("Response : " + response.get_return());
+    }
+}

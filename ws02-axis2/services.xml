@@ -1,0 +1,8 @@
+<service name="Servico">
+    <description>Descricao do Servico</description>
+    <parameter name="ServiceClass">org.usp.ws.Servico</parameter>
+
+    <operation name="soma">
+    <messageReceiver  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+</service>

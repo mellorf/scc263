@@ -1,0 +1,6 @@
+<service>
+	<parameter name="ServiceClass" locked="false">SimpleService</parameter>
+	<operation name="echo">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>    
+</service>

@@ -1,0 +1,14 @@
+<service name="Servico">
+    <description>Descricao do Servico</description>
+    <parameter name="ServiceClass">org.usp.ws.Servico</parameter>
+    <operation name="soma">
+	<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+    <operation name="getJavaBean">
+	<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+
+    <beanMapping qname="myNS:JavaBean" xmlns:myNS="urn:Servico"
+	    languageSpecificType="java:org.usp.ws.JavaBean"/>
+
+</service>

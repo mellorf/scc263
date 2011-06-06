@@ -33,8 +33,8 @@ public class Detail implements java.io.Serializable {
 	public Long getId() { return this.did; }
 	public String getInformation() { return this.information; }
 
-	@ManyToOne //(mappedBy="details")  // map info is in person class
-	@JoinColumn (name="uid", nullable = false, updatable = false, insertable = false)
+	@ManyToOne
+        @JoinColumn (name="uid", nullable = false, updatable = false, insertable = false)
 	private User user;
 	public User getUser() { return this.user; }
 }

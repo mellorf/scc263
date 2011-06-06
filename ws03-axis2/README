@@ -1,0 +1,9 @@
+http://localhost:8080/axis2/services/Servico/soma?valor1=5&valor2=4
+
+http://localhost:8080/axis2/services/Servico/getJavaBean?codigo=5&nome=Joao
+
+/usr/local/axis2-1.5.4/bin/wsdl2java.sh -uri http://localhost:8080/axis2/services/Servico?wsdl -o .
+
+javac -extdirs /usr/local/axis2-1.5.4/lib/ src/org/usp/ws/ServicoStub.java src/org/usp/ws/ServicoCallbackHandler.java src/org/usp/ws/Client.java -d build/
+
+java -Djava.ext.dirs=/usr/local/axis2-1.5.4/lib -cp ./build/ org.usp.ws.Client

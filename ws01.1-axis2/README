@@ -1,0 +1,15 @@
+make
+
+cp build/lib/Funcao.aar /usr/local/axis2-1.5.4/repository/services/
+
+================
+
+http://localhost:8080/axis2/services/Funcao/maiorPrimo?args0=3
+
+/usr/local/axis2-1.5.4/bin/wsdl2java.sh -uri http://localhost:8080/axis2/services/Funcao?wsdl -o .
+
+javac -extdirs /usr/local/axis2-1.5.4/lib/ src/org/apache/ws/axis2/*.java -d temp/
+
+javac -extdirs /usr/local/axis2-1.5.4/lib/ -cp ./temp/ src/Client.java -d temp/
+
+java -Djava.ext.dirs=/usr/local/axis2-1.5.4/lib -cp ./temp/ org.apache.ws.axis2.Client

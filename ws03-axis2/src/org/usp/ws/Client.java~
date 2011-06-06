@@ -1,0 +1,21 @@
+package org.usp.ws;
+ 
+import org.usp.ws.ServicoStub.GetJavaBeanResponse;
+public class Client {
+    public static void main(String[] args) throws Exception {
+        ServicoStub stub = new ServicoStub();
+
+        //Create the request
+        ServicoStub.GetJavaBean request = new ServicoStub.GetJavaBean();
+        request.setCodigo(Integer.parseInt(args[0]));
+        request.setNome(args[1]);
+
+        //Invoke the service
+        GetJavaBeanResponse response = stub.getJavaBean(request);
+        org.usp.ws.ServicoStub.JavaBean j = response.get_return();
+
+	System.out.println("objeto retornado pelo WS "+response);
+	System.out.println("objeto contido no retorno do WS "+j);
+	System.out.println(j.getCodigo()+", "+j.getNome());
+    }
+}

@@ -1,0 +1,23 @@
+all: clean server client
+
+server:
+	mkdir build-server
+	javac src/Funcao.java -d build-server
+	mkdir aar
+	cp -ax build-server/* aar/
+	mkdir aar/META-INF
+	cp services.xml aar/META-INF/
+	jar cvf Funcao.aar -C aar .
+
+client:
+	mkdir build-client
+	/usr/local/axis2-1.5.4/bin/wsdl2java.sh -uri http://localhost:8080/axis2/services/Funcao?wsdl -o .
+	javac -extdirs /usr/local/axis2-1.5.4/lib/ src/org/apache/ws/axis2/*.java -d build-client/
+	javac -extdirs /usr/local/axis2-1.5.4/lib/ -cp .:./build-client src/Client.java -d build-client
+
+run:
+	java -Djava.ext.dirs=/usr/local/axis2-1.5.4/lib -cp ./build-client Client 3
+	java -Djava.ext.dirs=/usr/local/axis2-1.5.4/lib -cp ./build-client Client 10
+
+clean:
+	rm -rf aar build-server build-client *~

@@ -45,7 +45,7 @@ public class User implements Serializable {
 	@JoinTable(
 			name="tuser_tconta",
 			joinColumns = { 
-				@JoinColumn(name="uid", unique = true)
+				@JoinColumn(name="uid")
 			},
 			inverseJoinColumns = { 
 				@JoinColumn(name="cid")
@@ -55,17 +55,6 @@ public class User implements Serializable {
 	public Set<Conta> getContas() { return this.contas; }
 	public void setContas(Set<Conta> contas) { this.contas = contas; }
 
-
-	/*
-	@OneToMany(cascade = CascadeType.ALL)
-	@JoinTable(name = "tuser_tdetail", 
-			joinColumns = { 
-				@JoinColumn(name = "uid") 
-			}, 
-			inverseJoinColumns = { 
-				@JoinColumn(name = "information") 
-			}
-		)*/
 	@OneToMany
 	@JoinColumn (name = "uid")
 	private Set<Detail> details = new HashSet<Detail>();
