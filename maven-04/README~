@@ -1,0 +1,26 @@
+Projeto WAR com JAR:
+====================
+
+Criar JAR:
+==========
+
+mvn archetype:create -DgroupId=com.attainware.maven2example -DartifactId=maven2example_logic
+
+mvn package
+
+mvn install // cria repositorio local
+
+Criar WAR:
+==========
+
+mvn archetype:create -DgroupId=com.attainware.maven2example -DartifactId=maven2example_webapp -DarchetypeArtifactId=maven-archetype-webapp
+
+mvn package
+
+mvn jetty:run
+
+==========
+
+Jetty irá atualizar automaticamente sobre o que for desenvolvido dentro do maven2example_webapp.
+
+Se novas classes forem criadas no maven2example_logic, deve-se reiniciar o jetty

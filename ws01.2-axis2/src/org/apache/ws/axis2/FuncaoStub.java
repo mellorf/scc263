@@ -3,7 +3,7 @@
  * FuncaoStub.java
  *
  * This file was auto-generated from WSDL
- * by the Apache Axis2 version: 1.5.1  Built on : Oct 19, 2009 (10:59:00 EDT)
+ * by the Apache Axis2 version: 1.5.4  Built on : Dec 19, 2010 (08:18:42 CET)
  */
         package org.apache.ws.axis2;
 
@@ -31,7 +31,7 @@
                 counter = 0;
             }
             counter = counter + 1; 
-            return java.lang.Long.toString(System.currentTimeMillis()) + "_" + counter;
+            return java.lang.Long.toString(java.lang.System.currentTimeMillis()) + "_" + counter;
         }
 
     

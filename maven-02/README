@@ -1,0 +1,18 @@
+Arquetipos:
+
+Project Template (Archetype)
+
+maven-archetype-archetype 	-- Create your own project template (archetype).
+maven-archetype-j2ee-simple 	-- Creates a J2EE project (EAR), with directories and subprojects for the EJBs, servlets, etc.
+maven-archetype-mojo 		-- Create your own Maven 2 plugins.
+maven-archetype-quickstart	-- Simple Java project, suitable for JAR generation. Maven 2 default.
+maven-archetype-site 		-- Documentation-only site, with examples in several formats. You can run this archetype on top of an existing Maven 2 project to add integrated documentation.
+maven-archetype-webapp 		-- Creates a web application project (WAR), with a simple Hello World JSP.
+
+Criando aplicacão:
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+Build:
+
+mvn package

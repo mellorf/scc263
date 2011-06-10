@@ -19,7 +19,7 @@ public class Funcao2 {
 		for (int j = 0; j < numero; j++)
 		for (int k = 0; k < numero; k++) {
 			w *= k + j / (i+1);
-			System.out.println(w);
+			System.out.println("testing...");
 		}
 
 		long end = System.currentTimeMillis();

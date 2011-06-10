@@ -1,0 +1,10 @@
+<html>
+<body>
+<h2>Teste de JavaBean User:</h2>
+<% 
+
+com.attainware.maven2example.App.now() 
+
+%>
+</body>
+</html>
