@@ -1,0 +1,75 @@
+<project name="hibernate-tutorial" default="compile">
+
+    <property name="sourcedir" value="${basedir}/src"/>
+    <property name="targetdir" value="${basedir}/classes"/>
+    <property name="librarydir" value="${basedir}/WEB-INF/lib"/>
+    <property name="web" value="${basedir}/web"/>
+    <property name="warDir" value="${basedir}/war"/>
+    <property name="warFile" value="jsf03.war"/>
+
+    <path id="libraries">
+        <fileset dir="${librarydir}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="war" depends="compile">
+
+	        <delete dir="${warDir}"/>
+
+	    	<mkdir dir="${warDir}"/>
+		<mkdir dir="${warDir}/WEB-INF"/>
+		<mkdir dir="${warDir}/WEB-INF/classes"/>
+
+	    	<copy todir="${warDir}/WEB-INF">
+			<fileset dir="${basedir}/WEB-INF" includes="**/*.*" /> 
+		</copy>
+
+		<!-- Se nao remover essas duas APIs ao fazer deployment o servidor WEB dah pau de compilacao dos JSPs e Servlets -->
+		<delete file="${warDir}/WEB-INF/lib/servlet-api.jar"/>
+		<delete file="${warDir}/WEB-INF/lib/jsp-api.jar"/>
+
+		<copy todir="${warDir}/WEB-INF/classes">
+			<fileset dir="${basedir}/classes" includes="**/*.*" /> 
+	    	</copy>
+
+		<copy todir="${warDir}">
+			<fileset dir="${web}" includes="**/*.*" /> 
+		</copy>
+
+		<copy todir="${warDir}/WEB-INF/classes">
+			<fileset dir="${basedir}" includes="hibernate.*" /> 
+		</copy>
+
+		<!-- Create war file and place in ear directory -->
+		<jar jarfile="${basedir}/${warFile}" basedir="${warDir}" />
+
+    </target>
+
+    <target name="clean">
+        <delete dir="${targetdir}"/>
+        <mkdir dir="${targetdir}"/>
+    </target>
+
+    <target name="compile" depends="clean, copy-resources">
+      <javac srcdir="${sourcedir}"
+             destdir="${targetdir}"
+             classpathref="libraries"/>
+    </target>
+
+    <target name="copy-resources">
+        <copy todir="${targetdir}">
+            <fileset dir="${sourcedir}">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="run" depends="compile">
+        <java fork="true" classname="sistema.Manager" classpathref="libraries">
+	   <classpath path="${targetdir}:."/>
+           <arg value="${action}"/>
+        </java>
+    </target>
+
+</project>

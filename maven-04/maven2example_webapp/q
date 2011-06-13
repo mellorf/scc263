@@ -1,0 +1,20 @@
+Archive:  target/maven2example_webapp.war
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  06-13-2011 11:13   META-INF/
+      123  06-13-2011 11:13   META-INF/MANIFEST.MF
+        0  06-10-2011 07:42   WEB-INF/
+        0  06-10-2011 07:42   WEB-INF/lib/
+        0  06-10-2011 07:42   WEB-INF/classes/
+      103  06-10-2011 07:42   index.jsp
+      233  06-10-2011 07:42   test.jsp
+     3219  06-10-2011 07:42   WEB-INF/lib/maven2example_logic-1.0-SNAPSHOT.jar
+   510170  06-13-2011 11:09   WEB-INF/lib/postgresql-8.4-701.jdbc4.jar
+      215  06-10-2011 07:42   WEB-INF/web.xml
+        0  06-13-2011 11:13   META-INF/maven/
+        0  06-13-2011 11:13   META-INF/maven/com.attainware.maven2example/
+        0  06-13-2011 11:13   META-INF/maven/com.attainware.maven2example/maven2example_webapp/
+     1074  06-10-2011 07:42   META-INF/maven/com.attainware.maven2example/maven2example_webapp/pom.xml
+      140  06-13-2011 11:13   META-INF/maven/com.attainware.maven2example/maven2example_webapp/pom.properties
+---------                     -------
+   515277                     15 files
