@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+	  <security-domain flushOnSessionInvalidation="false"/>
+	  <context-root>/exemplo05</context-root>
+
+	<ejb-ref>
+		<ejb-ref-name>CalculatorImpl</ejb-ref-name>
+		<jndi-name>exemplo05/CalculatorImpl/remote</jndi-name>
+	</ejb-ref>
+</jboss-web>

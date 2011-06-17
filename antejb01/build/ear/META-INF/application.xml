@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<application>
+	<display-name>Exemplo05</display-name>
+	<module>
+		<web>
+			<web-uri>exemplo05.war</web-uri>
+			<context-root>/exemplo05</context-root>
+		</web>
+	</module>
+	<module>
+		<ejb>exemplo05.jar</ejb>
+	</module>
+</application>
+
+

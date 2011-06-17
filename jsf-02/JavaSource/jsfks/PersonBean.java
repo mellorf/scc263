@@ -2,7 +2,7 @@ package jsfks;
 
 public class PersonBean {
 
-   String personName;
+   private String personName;
 	
    public String getPersonName() {
       return personName;
@@ -11,4 +11,6 @@ public class PersonBean {
    public void setPersonName(String name) {
       personName = name;
    }
+
+   // outros metodos -> controller
 }

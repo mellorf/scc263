@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+	<local-tx-datasource>
+	<jndi-name>ejb3ExampleDS</jndi-name>
+	<connection-url>jdbc:postgresql://localhost:5432/userdb</connection-url>
+	<driver-class>org.postgresql.Driver</driver-class>
+	<user-name>user01</user-name>
+	<password>user01</password>
+	<!-- the minimum size of the connection pool -->
+	<min-pool-size>1</min-pool-size>
+	<!-- The maximum connections in a pool/sub-pool -->
+	<max-pool-size>4</max-pool-size>
+	</local-tx-datasource>
+</datasources>

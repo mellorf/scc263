@@ -1,0 +1,10 @@
+package org.usp.test01;
+
+import javax.ejb.Remote;
+
+//START SNIPPET: code
+@Remote
+public interface CalculatorRemote {
+	public int count();
+}
+//END SNIPPET: code

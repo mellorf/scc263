@@ -1,0 +1,20 @@
+<!-- persistence version="1.0">  
+    <persistence-unit name="em1">  
+        <jta-data-source>java:/ejb3ExampleDS</jta-data-source>  
+        <properties>  
+            <property name="jboss.entity.manager.jndi.name"  
+                value="java:/Manager1" />  
+            <property name="jboss.entity.manager.factory.jndi.name"  
+                value="java:/Manager1Factory" />  
+        </properties>  
+     </persistence-unit>  
+</persistence -->  
+<persistence>
+	<persistence-unit name="FirstEjb3Tutorial" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:/ejb3ExampleDS</jta-data-source>
+		<properties>
+		<property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+		</properties>
+	</persistence-unit>
+</persistence>

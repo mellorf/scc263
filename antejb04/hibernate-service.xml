@@ -1,0 +1,15 @@
+<server>
+    <mbean code="org.jboss.hibernate.jmx.Hibernate" name="jboss.har:service=Hibernate"> 
+        <attribute name="DatasourceName">ejb3ExampleDS</attribute> 
+        <attribute name="Dialect">net.sf.hibernate.dialect.HSQLDialect</attribute> 
+        <attribute name="SessionFactoryName">
+            java:/hibernate/CaveatEmptorSessionFactory
+        </attribute>
+        <attribute name="CacheProviderClass"> 
+            net.sf.hibernate.cache.HashtableCacheProvider 
+        </attribute> 
+            
+        <attribute name="Hbm2ddlAuto">create-drop</attribute>
+        <attribute name="ShowSqlEnabled">true</attribute>
+    </mbean>
+</server> 

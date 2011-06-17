@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<project name="Exemplo WAR" default="all" basedir=".">
+
+	<property name="lib" value="${basedir}/lib"/>
+	<property name="web" value="${basedir}/web"/>
+	<property name="src" value="${basedir}/src"/>
+	<property name="build" value="${basedir}/build"/>
+	<property name="classdir" value="${basedir}/build/classes"/>
+	<property name="warDir" value="${basedir}/build/war"/>
+	<property name="ejbDir" value="${basedir}/build/ejb"/>
+	<property name="earDir" value="${basedir}/build/ear"/>
+
+	<!-- WAR and EAR FILES -->
+	<property name="warFile" value="exemplo06.war"/>
+	<property name="ejbFile" value="exemplo06.jar"/>
+	<property name="earFile" value="exemplo06.ear"/>
+
+	<!-- JDK and JBOSS -->
+	<property name="jdk.dir" value="/usr/local/jdk1.6.0_24"/>
+	<property name="jboss.dir" value="/usr/local/jboss-6.0.0.Final/common/lib"/>
+
+	<path id="project.class.path">
+		<fileset dir="${lib}" includes="**/*.jar"/>
+		<fileset dir="${jdk.dir}" includes="**/*.jar"/>
+		<fileset dir="${jboss.dir}" includes="**/*.jar"/>
+	</path>
+
+	<target name="init">
+
+		<!-- Create Web-inf and classes directories -->
+		<mkdir dir="${build}"/>
+		<mkdir dir="${classdir}"/>
+		<mkdir dir="${warDir}/WEB-INF"/>
+		<mkdir dir="${warDir}/WEB-INF/classes"/>
+		<mkdir dir="${warDir}/WEB-INF/lib"/>
+
+		<!-- Create Meta-inf and classes directories -->
+		<mkdir dir="${earDir}"/>
+		<mkdir dir="${earDir}/META-INF"/>
+
+		<mkdir dir="${ejbDir}"/>
+		<mkdir dir="${ejbDir}/META-INF"/>
+	</target>
+
+	<!-- Main target -->
+	<target name="all" depends="clean,init,build,buildWar,buildJar,buildEar"/>
+
+	<!-- Compile Java Files and store in /build/src directory -->
+	<target name="build" >
+		<javac srcdir="${src}" destdir="${classdir}" 
+			debug="true" includes="**/*.java">
+			<classpath refid="project.class.path"/>
+		</javac>
+	</target>
+
+	<!-- Create the War File -->
+	<target name="buildWar" depends="init">
+		<!-- copy todir="${warDir}/WEB-INF/classes">
+			<fileset dir="${classdir}" includes="**/*Remote.class" /> 
+			<fileset dir="${classdir}" includes="**/*Local.class" /> 
+		</copy -->
+
+		<copy todir="${warDir}/WEB-INF">
+			<fileset dir="${basedir}" includes="web.xml" /> 
+			<fileset dir="${basedir}" includes="jboss-web.xml" /> 
+		</copy>
+
+		<copy todir="${warDir}">
+			<fileset dir="${web}" includes="**/*.*" /> 
+		</copy>
+
+		<copy todir="${warDir}/WEB-INF/lib">
+			<fileset dir="${lib}" includes="**/*.*" /> 
+		</copy>
+
+		<!-- Create war file and place in ear directory -->
+		<jar jarfile="${earDir}/${warFile}" basedir="${warDir}" />
+	</target>
+
+	<!-- Create the Jar File -->
+	<target name="buildJar" depends="init">
+		<copy todir="${ejbDir}/META-INF">
+			<fileset dir="${basedir}" includes="ejb-jar.xml" /> 
+			<!-- fileset dir="${basedir}" includes="jboss.xml" /--> 
+		</copy>
+
+		<copy todir="${ejbDir}">
+			<fileset dir="${classdir}" includes="**/*.*" /> 
+		</copy>
+
+		<!-- Create war file and place in ear directory -->
+		<jar jarfile="${earDir}/${ejbFile}" basedir="${ejbDir}" />
+	</target>
+
+	<!-- Create the War File -->
+	<target name="buildEar" depends="init">
+		<copy todir="${earDir}/META-INF">
+			<fileset dir="${basedir}" includes="application.xml" /> 
+		</copy>
+
+		<!-- Create ear file and place in ear directory -->
+		<jar jarfile="${basedir}/${earFile}" basedir="${earDir}" />
+	</target>
+
+	<target name="clean" >
+		<delete dir="build"/>
+		<delete dir="${basedir}/exemplo06.ear"/>
+	</target>
+</project>
+
