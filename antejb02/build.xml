@@ -81,7 +81,7 @@
 	<target name="buildJar" depends="init">
 		<copy todir="${ejbDir}/META-INF">
 			<fileset dir="${basedir}" includes="ejb-jar.xml" /> 
-			<!-- fileset dir="${basedir}" includes="jboss.xml" /--> 
+			<!--fileset dir="${basedir}" includes="jboss.xml" /--> 
 		</copy>
 
 		<copy todir="${ejbDir}">

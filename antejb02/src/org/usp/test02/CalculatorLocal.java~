@@ -1,4 +1,4 @@
-package org.usp.test01;
+package org.usp.test02;
 
 import javax.ejb.Local;
 
